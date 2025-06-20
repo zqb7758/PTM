@@ -29,7 +29,7 @@ All the provided codes generate adversarial examples on Inception_v3 model. If y
 ### Runing attack
 1. You can run our proposed attack as follows. 
 ```
-python Incv3_PTM_Attacks.py
+python attacks.py
 ```
 We also provide the implementations of other baseline attack methods in our code, just change them to the corresponding attack methods in the **main()** function.
 
@@ -43,11 +43,10 @@ The codes mainly references: [STM](https://github.com/Zhijin-Ge/STM) and [tf_to_
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@inproceedings{ge2023improving,
-     title={{Enhancing the Transferability of Adversarial Examples by Random Perspective Tilting}},
+@articles{,
+     title={{Enhancing Transferability of Adversarial Examples by Random Perspective Tilting}},
      author={},
      booktitle={},
      year={2025}
 }
 ```
->>>>>>> ffefca2 (initial upload README.md)
