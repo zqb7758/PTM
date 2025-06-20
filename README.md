@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 # PTM
 Implementation Code for paper "Enhancing the transferabilities of adversarial examples by perspective tilting."
 =======
-# STM
-This repository contains the PyTorch code for the paper:
-
-[Enhancing the Transferability of Adversarial Examples by Random Perspective Tilting].
-
-which has been accepted by .
 
 ## Requirements
 * python == 3.8.20
