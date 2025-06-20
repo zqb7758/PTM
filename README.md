@@ -1,5 +1,5 @@
 # PTM
-Implementation Code for paper "Enhancing the transferabilities of adversarial examples by perspective tilting."
+Implementation Code for paper "Enhancing transferability of adversarial examples by random perspective tilting."
 =======
 
 ## Requirements
