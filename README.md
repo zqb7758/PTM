@@ -18,7 +18,7 @@ Implementation Code for paper "Enhancing transferability of adversarial examples
 ### Prepare the data and models.
 1. We have prepared the ImageNet-compatible dataset in this program and put the data in **'./dataset/'**, and you should unrar the **'./dataset/images.rar'** before using.
 
-2. The normally trained models (i.e., Inc-v3, Inc-v4, IncRes-v2, Res-152, Res-101) are from "pretrainedmodels", if you use it for the first time, it will download the weight of the model automatically, just wait for it to finish. 
+2. The normally trained models (i.e., Inc-v3, Inc-v4, IncRes-v2, Res-152, Res-101) are from "pretrainedmodels", if you use it for the first time, it will download the weight of the model automatically, just wait for it to finish. For all models(.npy) to be used, please download them from [tf_to_torch_model](https://github.com/ylhz/tf_to_pytorch_model), and make sure you put them in the right directory **'./models/'**.
 
 3. The adversarially trained models (i.e,  adv_inc_v3， ens3_adv_inc_v3, ens4_adv_inc_v3, ens_adv_inc_res_v2) are from [SSA](https://github.com/yuyang-long/SSA) or [tf_to_torch_model](https://github.com/ylhz/tf_to_pytorch_model). For more detailed information on how to use them, visit these two repositories.
 
